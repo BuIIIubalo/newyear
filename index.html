@@ -21,16 +21,15 @@
         position: absolute;
         right:0;top:0;
         
+        background-image: url(fullscreen.png);
+        
         width: 50px;height: 50px;
         
         z-index: 10;
       }
     </style>
-    
+    <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
     <div class="webgl-content">
-      <div class="footer">
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-      </div>
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
     </div>
   </body>
